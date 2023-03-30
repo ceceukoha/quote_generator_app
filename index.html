@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="ceceukoha">
+    <meta name="description" content="Quote Generator">
+    <meta name="keywords" content="HTML, CSS, JS, Quotes, API">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Quote  -->
+        <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote-text" id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+        </h1>
+
+        <!-- Author  -->
+        <p class="author" id="author"></p>
+
+        <hr>
+
+        <!-- buttons  -->
+        <div class="buttons">
+            <a href="https://twitter.com/intent/tweet?text=Greetings" class="twitter" id="tweet" data-size="large" target="_blank"><i class="fab fa-twitter"></i></a>
+
+            <button class="next" onclick="getQuote()">New Quote</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
