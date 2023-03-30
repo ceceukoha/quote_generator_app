@@ -1,1 +1,1 @@
-An app that randomly generates mptivational quotes!
+An app that randomly generates motivational quotes!
